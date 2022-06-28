@@ -1,0 +1,107 @@
+
+table{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{
+    top:30%;
+    left: 15%;
+    transform: translate(0%,0%);
+    position: absolute;
+    width: max-content;
+}
+
+.card{
+    border: 1px;
+    width: max-content;
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+}
+
+.card img{
+    width: 300px;
+    height: 250px;
+    padding: 5px;
+}
+
+.filterDiv {
+  float: left;
+  background-color: #8a8a8a;
+  color: #ffffff;
+  width: 200px;
+  line-height: 200px;
+  text-align: center;
+  margin: 2px;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.container {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #a59a9a;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: rgb(255, 255, 255);
+}
+
+.title{
+    font-weight: bold;
+    margin: 20px;
+}
+
+.cart{
+    width:250px;
+    float: right;
+    text-align: center;
+    border: 1px solid black;
+    overflow-y: scroll;
+    height: 90%; 
+    background-color: rgb(220, 180, 180);
+    position:fixed;
+}
+
+.cartImg>img{
+  width:200px;
+  height:150px;
+}
+.receipt
+        {
+            width:70%;
+            height:100%;
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top:50px;
+        }
+        
+        h3
+        {
+            width: 25%;
+            text-align: center;
+        }
+
+  p{
+      font-size: 16pt;            
+      font-family:serif;
+  }
